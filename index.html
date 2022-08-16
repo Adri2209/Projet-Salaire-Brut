@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>PROJET SALAIRE</title>
+</head>
+<body>
+ <header>
+    <h1>Calculateur de salaire</h1>
+ <form>
+    <div>
+        <p>
+            <label for="salairenet"><strong>Salaire Net: </strong></label>
+                <input id="salaireNet" type="number">
+        </p>
+        <p>
+            <label for="charges"><strong>Charges: </strong></label>
+            <input id="charges" type="number">
+        </p>
+        <p>
+            <label for="salairebrut"><strong>Salaire Brut: </strong></label>
+                <input id="salaireBrut" type="number">
+        </p>
+    </div>
+    <div class="button">
+        <input onclick="resultBrut()" type="button" value="Valider">
+    </div>
+ </form>
+ </header>
+ <script src="assets/js/main.js"></script>   
+</body>
+</html>
